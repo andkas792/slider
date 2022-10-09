@@ -37,6 +37,8 @@ body {
 
 .slide.active {
     width: 600px;
+    transform: scale(1.04);
+    /* transition: transform 250ms linear; */
 }
 
 .slide::before {
